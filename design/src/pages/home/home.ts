@@ -47,5 +47,24 @@ export class HomePage {
   GoToSixth()  {
     this.navCtrl.push(SixthYearPage);
   }
+  GoToSeventh()  {
+    this.navCtrl.push(FirstYearPage );
+  }
+  GoToEith()  {
+    this.navCtrl.push(SecondYearPage);
+  }
+  GoToNineth()  {
+    this.navCtrl.push(ThirdYearPage);
+  }
+  GoToTenth()  {
+    this.navCtrl.push(FourthYearPage);
+  }
+  GoToEleventh()  {
+    this.navCtrl.push(FifthYearPage);
+  }
+  GoToTwelveth()  {
+    this.navCtrl.push(SixthYearPage);
+  }
+  
 
 }
