@@ -18,7 +18,7 @@ import { SixthYearPage } from '../sixth-year/sixth-year';
 @IonicPage()
 @Component({
   selector: 'page-first-year',
-  templateUrl: 'first-year.html',
+  templateUrl: 'first-grades.html',
 })
 export class FirstGrades {
 

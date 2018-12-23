@@ -10,6 +10,8 @@ import { ThirdYearPage } from '../third-year/third-year';
 import { FourthYearPage } from '../fourth-year/fourth-year';
 import { FifthYearPage } from '../fifth-year/fifth-year';
 import { SixthYearPage } from '../sixth-year/sixth-year';
+import { FirstGrades } from '../first-grades/first-grades';
+
 
 
 @Component({
@@ -30,7 +32,7 @@ export class HomePage {
   }
 
   GoToFirst()  {
-    this.navCtrl.push(FirstYearPage );
+    this.navCtrl.push(FirstGrades);
   }
   GoToSecond()  {
     this.navCtrl.push(SecondYearPage);
@@ -65,6 +67,6 @@ export class HomePage {
   GoToTwelveth()  {
     this.navCtrl.push(SixthYearPage);
   }
-  
+
 
 }

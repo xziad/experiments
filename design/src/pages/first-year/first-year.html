@@ -1,5 +1,5 @@
 <!--
-  Generated template for the FirstYearPage page.
+  Generated template for the FourthYearPage page.
 
   See http://ionicframework.com/docs/components/#navigation for more info on
   Ionic pages and navigation.
@@ -7,18 +7,27 @@
 <ion-header>
 
   <ion-navbar>
-    <ion-title>first-year</ion-title>
+    <ion-title>الصف الرابع الابتدائي</ion-title>
   </ion-navbar>
 
 </ion-header>
 
 
-<ion-content padding>
-  <p>
-    <button ion-button color="primary"  (click)="GoTo(0)" full round> الفصل الدراسي الأول</button>
-  </p>
-<p>
-    <button ion-button color="primary"  (click)="GoTo(1)" full round> الفصل الدراسي الثاني</button>
+<ion-content padding class="bg4-color">
+  <div text-center>
+  <div padding>
+      <ion-chip>
+          <ion-icon name="heart" color="forth"></ion-icon>
+          <ion-label>
+            الصف الرابع الابتدائي
+          </ion-label>
+        </ion-chip>
+  </div>
+    <p>
+    <button ion-button color="forth"  (click)="goTo(6)" full round> الفصل الدراسي الأول</button>
     </p>
-
+    <p>
+    <button ion-button color="forth"  (click)="goTo(7)" full round> الفصل الدراسي الثاني</button>
+    </p>
+  </div>
 </ion-content>

@@ -51,7 +51,7 @@ import { ComponentsModule } from '../components/components.module';
     ElevenYearPage,
     TwelveYearPage,
     FirstGrades,
-    GradePage
+    GradePage,
 
   ],
   imports: [
@@ -76,7 +76,7 @@ import { ComponentsModule } from '../components/components.module';
     ElevenYearPage,
     TwelveYearPage,
     FirstGrades,
-    GradePage
+    GradePage,
   ],
   providers: [
     StatusBar,

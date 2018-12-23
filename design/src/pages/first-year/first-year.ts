@@ -2,7 +2,7 @@ import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams,AlertController } from 'ionic-angular';
 
 /**
- * Generated class for the FirstYearPage page.
+ * Generated class for the FourthYearPage page.
  *
  * See https://ionicframework.com/docs/components/#navigation for more info on
  * Ionic pages and navigation.
@@ -10,12 +10,12 @@ import { IonicPage, NavController, NavParams,AlertController } from 'ionic-angul
 
 @IonicPage()
 @Component({
-  selector: 'page-first-year',
+  selector: 'page-fourth-year',
   templateUrl: 'first-year.html',
 })
 export class FirstYearPage {
 
-  constructor(public navCtrl: NavController, public navParams: NavParams) {
+  constructor(public navCtrl: NavController, public navParams: NavParams,public alerCtrl: AlertController) {
   }
   goTo(pageIndex: number) {
     let confirm = this.alerCtrl.create({
@@ -40,8 +40,5 @@ export class FirstYearPage {
    confirm.present()
 }
 
-  ionViewDidLoad() {
-    console.log('ionViewDidLoad FirstYearPage');
-  }
 
 }
