@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { IonicPage, NavController, NavParams ,AlertController } from 'ionic-angular';
+import { IonicPage, NavController, NavParams,AlertController } from 'ionic-angular';
 
 /**
  * Generated class for the FirstYearPage page.
@@ -15,9 +15,8 @@ import { IonicPage, NavController, NavParams ,AlertController } from 'ionic-angu
 })
 export class FirstYearPage {
 
-  constructor(public navCtrl: NavController, public navParams: NavParams ,public alerCtrl: AlertController) {
+  constructor(public navCtrl: NavController, public navParams: NavParams) {
   }
-
   goTo(pageIndex: number) {
     let confirm = this.alerCtrl.create({
      title: 'تنبيه تنزيل مقاطع الفيديو!',
@@ -32,8 +31,8 @@ export class FirstYearPage {
        {
          text: 'موافق',
          handler: () => {
-           this.navCtrl.push('GradePage', { 'grade': pageIndex });
            console.log('Agree clicked');
+           this.navCtrl.push('GradePage', { 'grade': pageIndex });
          }
        }
      ]
@@ -41,7 +40,8 @@ export class FirstYearPage {
    confirm.present()
 }
 
-
-
+  ionViewDidLoad() {
+    console.log('ionViewDidLoad FirstYearPage');
+  }
 
 }

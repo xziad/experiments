@@ -1,5 +1,6 @@
 import { EighthYearPage } from './../pages/eighth-year/eighth-year';
 import { TwelveYearPage } from '../pages/twelvth-year/twelvth-year';
+import {FirstGrades} from '../pages/first-grades/first-grades';
 import { ElevenYearPage } from '../pages/eleventh-year/eleventh-year';
 import { TenthYearPage } from '../pages/tenth-year/tenth-year';
 import { NinethYearPage } from '../pages/ninth-year/ninth-year';
@@ -49,6 +50,7 @@ import { ComponentsModule } from '../components/components.module';
     TenthYearPage,
     ElevenYearPage,
     TwelveYearPage,
+    FirstGrades,
     GradePage
 
   ],
@@ -73,6 +75,7 @@ import { ComponentsModule } from '../components/components.module';
     TenthYearPage,
     ElevenYearPage,
     TwelveYearPage,
+    FirstGrades,
     GradePage
   ],
   providers: [
