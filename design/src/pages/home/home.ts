@@ -1,3 +1,4 @@
+import { FirstlyGradePage } from './../firstly-grade/firstly-grade';
 import { Component } from '@angular/core';
 import { NavController } from 'ionic-angular';
 import { AlertController } from 'ionic-angular';
@@ -10,8 +11,6 @@ import { ThirdYearPage } from '../third-year/third-year';
 import { FourthYearPage } from '../fourth-year/fourth-year';
 import { FifthYearPage } from '../fifth-year/fifth-year';
 import { SixthYearPage } from '../sixth-year/sixth-year';
-import { FirstGrades } from '../first-grades/first-grades';
-
 
 
 @Component({
@@ -32,13 +31,13 @@ export class HomePage {
   }
 
   GoToFirst()  {
-    this.navCtrl.push(FirstGrades);
+    this.navCtrl.push(FirstlyGradePage );
   }
   GoToSecond()  {
-    this.navCtrl.push(SecondYearPage);
+    this.navCtrl.push(FirstlyGradePage);
   }
   GoToThird()  {
-    this.navCtrl.push(ThirdYearPage);
+    this.navCtrl.push(FirstlyGradePage);
   }
   GoToFourth()  {
     this.navCtrl.push(FourthYearPage);
@@ -49,24 +48,5 @@ export class HomePage {
   GoToSixth()  {
     this.navCtrl.push(SixthYearPage);
   }
-  GoToSeventh()  {
-    this.navCtrl.push(FirstYearPage );
-  }
-  GoToEith()  {
-    this.navCtrl.push(SecondYearPage);
-  }
-  GoToNineth()  {
-    this.navCtrl.push(ThirdYearPage);
-  }
-  GoToTenth()  {
-    this.navCtrl.push(FourthYearPage);
-  }
-  GoToEleventh()  {
-    this.navCtrl.push(FifthYearPage);
-  }
-  GoToTwelveth()  {
-    this.navCtrl.push(SixthYearPage);
-  }
-
 
 }

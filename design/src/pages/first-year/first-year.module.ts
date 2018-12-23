@@ -3,11 +3,11 @@ import { IonicPageModule } from 'ionic-angular';
 import { FirstYearPage } from './first-year';
 
 @NgModule({
-  declarations: [
-    FirstYearPage,
-  ],
+  // declarations: [
+  //   FirstYearPage,
+  // ],
   imports: [
-    IonicPageModule.forChild(FirstYearPage),
-  ],
+    IonicPageModule.forChild(FirstYearPage)
+  ]
 })
 export class FirstYearPageModule {}
